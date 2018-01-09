@@ -1,0 +1,43 @@
+	/*
+  	spa icon font: spa
+  	Creation date: 04/09/2017 21:24
+  	*/
+
+@font-face {
+  font-family: "spa";
+  src: url("./spa-icons.eot");
+  src: url("./spa-icons.eot?#iefix") format("embedded-opentype"),
+  url("./spa-icons.woff") format("woff"),
+  url("./spa-icons.ttf") format("truetype"),
+  url("./spa-icons.svg#spa") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "spa";
+    src: url("./spa-icons.svg#spa") format("svg");
+  }
+}
+
+[class^="spa-"] {
+  position: relative;
+  top: 1px;
+  font-family: 'spa';
+  font-style: normal;
+}
+
+.spa-levels:before { content: "\f100"; }
+.spa-wave:before { content: "\f101"; }
+.spa-caress:before { content: "\f102"; }
+.spa-facial-cream:before { content: "\f103"; }
+.spa-massage-1:before { content: "\f104"; }
+.spa-massage:before { content: "\f105"; }
+.spa-massage-session:before { content: "\f106"; }
+.spa-ultrasound:before { content: "\f107"; }
+.spa-biotech:before { content: "\f108"; }
+.spa-diamond:before { content: "\f109"; }
+.spa-laser-machine:before { content: "\f10a"; }
+.spa-spa-facial-treatment-with-mask-and-massages:before { content: "\f10b"; }
+.spa-hand-wash:before { content: "\f10c"; }
